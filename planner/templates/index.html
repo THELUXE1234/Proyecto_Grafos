@@ -1,0 +1,159 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Planificador de actividades Semanales</h1>
+<h3>Selecciona Actividades en el Mapas</h3>
+
+{% csrf_token %}
+<!--Casilla de busqueda (direccion->cordenadas)-->
+<input type="text" id="address-input" placeholder="Ingresa una dirección" style="width: 500px; height: 30px;">
+<button id="search-address" style="height: 30px;">Buscar Dirección</button>
+<br><br>
+<!--mapa-->
+<div id="map" style="height: 550px; width: 1000px;" ></div>
+
+<!--boton de calcular el tiempo de la ruta-->
+<br>
+<button id="submit-activities" style="width: 200px; height: 50px;">Calcular tiempo Ruta</button>
+<br>
+
+<h3>Actividades Seleccionadas:</h3>
+<ul id="activity-list">
+    <!-- Aquí aparecerán las actividades confirmadas -->
+</ul>
+
+
+
+<script>
+    
+    var map = L.map('map').setView([-33.45, -70.65], 13); // Santiago
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+    var activities = [];
+    var markers = [];
+
+    // Al hacer clic en el mapa, permitir confirmar la actividad
+    map.on('click', (event) => {
+        let lat = event.latlng.lat;
+        let lng = event.latlng.lng;
+        if (window.confirm("¿Deseas agregar esta ubicación a la lista de actividades?")) {
+            addActivity(lat, lng);
+        }
+    });
+
+    
+
+    // Función para agregar actividad a la lista y al mapa
+    function addActivity(lat, lng) {
+        const coords = lat + "," + lng;
+
+        // Agregar la actividad al array
+        activities.push(coords);
+
+        // Añadir marcador al mapa
+        const marker = L.marker([lat, lng]).addTo(map).bindPopup("Actividad confirmada").openPopup();
+        markers.push(marker);
+
+        // Añadir la actividad a la lista visual
+        const activityList = document.getElementById('activity-list');
+        const listItem = document.createElement('li');
+        listItem.textContent = `Actividad: ${coords}`;
+        listItem.setAttribute('data-coords', coords);
+
+        // Añadir botón para eliminar la actividad
+        const deleteButton = document.createElement('button');
+        deleteButton.textContent = 'Eliminar';
+        deleteButton.style.marginLeft = '10px';
+        deleteButton.onclick = () => {
+            removeActivity(coords, listItem, marker);
+        };
+
+        listItem.appendChild(deleteButton);
+        activityList.appendChild(listItem);
+    }
+
+    // Función para eliminar una actividad
+    function removeActivity(coords, listItem, marker) {
+        // Remover del array de actividades
+        activities = activities.filter(activity => activity !== coords);
+
+        // Remover el marcador del mapa
+        map.removeLayer(marker);
+
+        // Remover la actividad de la lista visual
+        listItem.remove();
+    }
+
+</script>
+
+<script>
+    // Obtener el token requerido por Django
+    const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value;
+    
+    // Enviar actividades al backend
+    document.getElementById('submit-activities').addEventListener('click', function () {
+        if (activities.length < 2) {
+            alert("Por favor selecciona al menos dos actividades.");
+            return;
+        }
+
+        var formData = new FormData();
+        activities.forEach(function(activity) {
+            formData.append('activities[]', activity);
+        });
+
+        fetch('/calcular_tiempo_ruta_optima/', {
+            method: 'POST',
+            headers: {'X-CSRFToken': csrftoken},
+            body: formData,
+            mode: 'same-origin'
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.total_time) {
+                alert(`Tiempo total estimado de viaje: ${data.total_time} minutos promedio`);
+            } else {
+                alert("Error al calcular la ruta");
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    });
+</script>
+<!--
+<script>
+    document.getElementById('search-address').addEventListener('click', function () {
+        const address = document.getElementById('address-input').value;
+        if (!address) {
+            alert("Por favor ingresa una dirección.");
+            return;
+        }
+
+        // Llamada a la vista de Django que hará la solicitud a la API de Google Geocoding
+        fetch(`/buscar_direccion/?direccion=${encodeURIComponent(address)}`)
+        .then(response => response.json())
+        .then(data => {
+            if (data.lat && data.lng) {
+                const lat = data.lat;
+                const lng = data.lng;
+
+                // Agregar la dirección como actividad
+                addActivity(lat, lng);
+                L.marker([lat, lng]).addTo(map).bindPopup(`Dirección: ${data.direccion_formateada}`).openPopup();
+                map.setView([lat, lng], 13); // Recentrar el mapa en la dirección encontrada
+            } else {
+                alert("No se pudo encontrar la dirección. Por favor intenta nuevamente.");
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    });
+</script>
+-->
+
+{% endblock %}
