@@ -1,0 +1,4645 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6303997,
+                    -33.4355959
+                ]
+            },
+            "properties": {
+                "addr:country": "CL",
+                "name": "Museo de los Tajamares",
+                "tourism": "museum",
+                "wikidata": "Q28501698",
+                "wikipedia": "es:Museo de los Tajamares"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5048676,
+                    -33.3617986
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Santa Rosa de Lo Barnechea",
+                "religion": "christian",
+                "wikidata": "Q22991865"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5881113,
+                    -33.6228673
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Parroquia San Gerónimo",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.573671,
+                    -33.6333953
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Parroquia Santísimo Sacramento de Pirque",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6360006,
+                    -33.3834714
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5845752,
+                    -33.4114168
+                ]
+            },
+            "properties": {
+                "access": "private",
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Capilla Escuela Militar",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5949123,
+                    -33.433857
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Parroquia San Ignacio El Bosque",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5435907,
+                    -33.462916
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Parroquia",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.8213776,
+                    -33.4571249
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Lomas de Lo Aguirre",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6534896,
+                    -33.4143977
+                ]
+            },
+            "properties": {
+                "addr:city": "Independencia",
+                "addr:country": "CL",
+                "addr:street": "San José",
+                "name": "Antiguo Hospital San José",
+                "tourism": "museum",
+                "wikidata": "Q16483490",
+                "wikimedia_commons": "Category:Antiguo Hospital San José",
+                "wikipedia": "es:Antiguo Hospital San José"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6452203,
+                    -33.5491937
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia \"Jesús, Señor de la Vida\"",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.4999407,
+                    -33.3657066
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Capilla Virgen Peregrina",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5740359,
+                    -33.3976509
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia Colegio San Pedro Nolasco",
+                "religion": "christian",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7413256,
+                    -33.5089847
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.2050592,
+                    -33.7267547
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Iglesia Chocalan",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7755946,
+                    -33.5217375
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Parroquia",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.9777737,
+                    -33.6794022
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia San Francisco de El Monte",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.8788295,
+                    -33.6003964
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Nuestra Señora del Carmen",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.1504258,
+                    -33.6549991
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia de Pomaire",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5749722,
+                    -33.6271466
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Cristo Negro",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5542646,
+                    -33.3364804
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Iglesia María Madre de la Msericordia",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5031414,
+                    -33.3713673
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Capilla Fuerza Aérea de Chile",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.634155,
+                    -33.4312595
+                ]
+            },
+            "properties": {
+                "addr:city": "Providencia",
+                "addr:country": "CL",
+                "addr:housenumber": "192",
+                "addr:street": "Pasaje Fernando Márquez de La Plata",
+                "architect": "Germán Rodríguez Arias y Carlos Martner",
+                "description": "Monumento Histórico de Chile desde el 31 de Julio de 1990",
+                "fee": "yes",
+                "museum": "person",
+                "name": "Casa Museo La Chascona",
+                "note": "entrada en intersección de pasaje Fernando Márquez de La Plata y calle Chucre Manzur",
+                "opening_hours": "Mo off; Mar-Dec: Tu-Su 10:00-18:00; Jan-Feb: Tu-Su 10:00-19:00",
+                "operator": "Fundación Pablo Neruda",
+                "operator:type": "private_for_profit",
+                "phone": "+56-2-2777 87 41 / +56-2-2737 87 12",
+                "start_date": "1986",
+                "tourism": "museum",
+                "website": "http://www.fundacionneruda.org/es/la-chascona/informacion-visita",
+                "wheelchair": "limited",
+                "wikidata": "Q5962867",
+                "wikimedia_commons": "File:Casa de Pablo Neruda La Chascona 03.JPG",
+                "wikipedia": "es:La Chascona"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.604153,
+                    -33.5323731
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Parroquia Santa Cruz de Mayo",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6575433,
+                    -33.4514831
+                ]
+            },
+            "properties": {
+                "addr:country": "CL",
+                "government": "map",
+                "museum": "military",
+                "name": "IGM museum",
+                "operator": "Instituto Geográfico Militar",
+                "operator:short": "IGM",
+                "operator:wikidata": "Q5917346",
+                "short_name": "IGM",
+                "tourism": "museum"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.9785851,
+                    -33.6782874
+                ]
+            },
+            "properties": {
+                "addr:city": "El Monte",
+                "addr:housenumber": "21",
+                "addr:street": "Independencia",
+                "amenity": "place_of_worship",
+                "denomination": "roman_catholic",
+                "name": "Parroquia San Francisco de Asís",
+                "protection_title": "onumento Histórico",
+                "religion": "christian",
+                "start_date": "1796",
+                "wikidata": "Q78781309",
+                "wikipedia": "es:Iglesia de El Monte"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6430554,
+                    -33.8286238
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Virgen del Carmen",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6421267,
+                    -33.8298887
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Parroquia Huelquén",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6601688,
+                    -33.902478
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Capilla Cisterciense",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.751396,
+                    -33.9047739
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "cristo águila sur",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7426086,
+                    -33.8101042
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "virgen del carmen baquedano",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6451672,
+                    -33.4437338
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:country": "CL",
+                "addr:housenumber": "659",
+                "addr:street": "Marcoleta",
+                "alt_name": "Club de la República Gran Logia de Chile",
+                "name": "Museo Masónico",
+                "tourism": "museum"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6521952,
+                    -33.4390245
+                ]
+            },
+            "properties": {
+                "addr:country": "CL",
+                "addr:housenumber": "361",
+                "addr:street": "Bandera",
+                "fee": "yes",
+                "name": "Museo de Arte Precolombino",
+                "name:en": "Museum of Precolombian Art",
+                "opening_hours": "Tu-Su 10:00-18:00",
+                "tourism": "museum",
+                "website": "https://museo.precolombino.cl/",
+                "wikidata": "Q517430",
+                "wikimedia_commons": "Category:Museo Chileno de Arte Precolombino",
+                "wikipedia": "en:Museo Chileno de Arte Precolombino"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.647835,
+                    -33.4436101
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:country": "CL",
+                "addr:housenumber": "834",
+                "addr:street": "Avenida Libertador Bernardo O'Higgins",
+                "museum": "art",
+                "name": "Museo de Arte Colonial de San Francisco",
+                "opening_hours": "Mo-Fr 09:30-13:30,15:00-18:00; Sa,Su 10:00-14:00",
+                "phone": "+56 2 26398737",
+                "source": "survey",
+                "tourism": "museum",
+                "website": "http://www.museosanfrancisco.com",
+                "wikidata": "Q16494156",
+                "wikimedia_commons": "Category:Museo de Arte Colonial de San Francisco",
+                "wikipedia": "en:Museo Colonial"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6717558,
+                    -33.7732888
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Capilla El Tránsito",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6734209,
+                    -33.7248063
+                ]
+            },
+            "properties": {
+                "addr:country": "CL",
+                "fee": "no",
+                "name": "Museo Andino",
+                "tourism": "museum",
+                "wikidata": "Q86280263"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5638285,
+                    -33.5923902
+                ]
+            },
+            "properties": {
+                "addr:city": "Puente Alto",
+                "addr:housenumber": "01338",
+                "addr:postcode": "8207897",
+                "addr:street": "Avenida Las Nieves Oriente",
+                "air_conditioning": "yes",
+                "amenity": "place_of_worship",
+                "denomination": "jehovahs_witness",
+                "name": "Salón del Reino",
+                "religion": "christian",
+                "service_times": "Jueves 20:00 Hrs, Domingo 17:00 Hrs",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.9263996,
+                    -33.7693233
+                ]
+            },
+            "properties": {
+                "addr:country": "CL",
+                "name": "Museo del Vino, Viña Tarapacá",
+                "tourism": "museum"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.9951082,
+                    -33.003089
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "building": "church",
+                "denomination": "catholic",
+                "name": "Capilla de Caleu",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5841476,
+                    -33.4741343
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Parroquia Espiritu Santo",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.8833973,
+                    -33.8768315
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia San José de Pintué",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.9158493,
+                    -33.8712106
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Capilla San Francisco de Asis",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.467972,
+                    -33.589954
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Capilla Las Vertientes",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6480775,
+                    -33.8154072
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "designation": "cristo la rana",
+                "name": "Cristo La Rana",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6546964,
+                    -33.9059204
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "gruta de chada",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.9476425,
+                    -33.8473927
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia de Rangue",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6802499,
+                    -33.4132258
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Parroquia San Joaquín",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6670061,
+                    -33.4249701
+                ]
+            },
+            "properties": {
+                "addr:country": "CL",
+                "amenity": "place_of_worship",
+                "name": "Nuestra Señora del Rosario",
+                "note": "Correcciones masivas a ortografía en nombres de importaciones hechas por equipo de gendarmería",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.9234286,
+                    -33.8669244
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Cristo del Belloto",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.8876754,
+                    -33.878439
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "La Gruta",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.8216206,
+                    -33.8401245
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia de El Vínculo",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.8556312,
+                    -33.8614646
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "jehovahs_witness",
+                "name": "Templo Testigos de Jehová",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.529509,
+                    -33.5971701
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Gruta Virgen de Vizcachas",
+                "religion": "christian",
+                "service_times": "Como lo dice un Letrero puesto en Poste al acceso: Visitar Sólo de Día"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7961006,
+                    -33.564038
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Parroquia Santa Rosa",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5530442,
+                    -33.4070895
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:housenumber": "7228",
+                "addr:street": "Avenida Apoquindo",
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Parroquia La Transfiguración del Señor",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7662248,
+                    -33.510568
+                ]
+            },
+            "properties": {
+                "addr:country": "CL",
+                "name": "Museo del Carmen",
+                "tourism": "museum",
+                "wikidata": "Q56318282",
+                "wikimedia_commons": "Category:Museo del Carmen de Maipú",
+                "wikipedia": "es:Museo del Carmen de Maipú"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6621676,
+                    -33.4451279
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Parroquia Universidad Alberto Hurtado",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7749965,
+                    -33.5434575
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Capilla Nuestra Señora de Belén.",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6425193,
+                    -33.445777
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6715033,
+                    -33.4095826
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia Unida Metodista Pentecostal",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7045102,
+                    -33.4879497
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia Evangelica Pentecostal Local Los Cerrillos",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5583678,
+                    -33.4038157
+                ]
+            },
+            "properties": {
+                "addr:city": "Las Condes",
+                "addr:housenumber": "7101",
+                "addr:street": "Las Trinitarias",
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Capilla Santa Rosa",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6162009,
+                    -33.5447394
+                ]
+            },
+            "properties": {
+                "addr:city": "La Granja",
+                "addr:street": "Isla San Félix",
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Capilla Cristo Resucitado",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6828437,
+                    -33.3510698
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Capilla San Francisco Javier",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6782795,
+                    -33.441749
+                ]
+            },
+            "properties": {
+                "addr:country": "CL",
+                "name": "Museo de la Educación Gabriela Mistral",
+                "source": "http://www.museodelaeducacion.cl/Vistas_Publicas/publicHome/homePublic.aspx?idInstitucion=98",
+                "tourism": "museum",
+                "wikidata": "Q6034227",
+                "wikimedia_commons": "Category:Museo de la Educación Gabriela Mistral",
+                "wikipedia": "es:Museo de la Educación Gabriela Mistral"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.8032359,
+                    -33.63742
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia Jesuita",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5541374,
+                    -33.3892685
+                ]
+            },
+            "properties": {
+                "addr:city": "Vitacura",
+                "addr:country": "CL",
+                "addr:housenumber": "7950",
+                "addr:street": "Puerto Rico",
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Nuestra Señora de El Dorado",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6180227,
+                    -33.4193975
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Capilla Lo Contador",
+                "religion": "christian",
+                "service_times": "Lu-Vi 13.00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.8559209,
+                    -33.7112373
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Parroquia Santo Domingo de Gúzman",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6050176,
+                    -33.5826507
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Parroquia Catolica Nazaret",
+                "name:es": "Parroquia Catolica Nazaret"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6028666,
+                    -33.5853276
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Parroquia",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.632766,
+                    -33.5560412
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Capilla",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7032017,
+                    -33.6898602
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia Fundo El Recurso",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6837212,
+                    -33.4398181
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:country": "CL",
+                "addr:street": "Santo Domingo",
+                "alt_name": "Museo de los Niños",
+                "museum": "children",
+                "name": "Museo Infantil",
+                "operator": "Corporación Privada para la Divulgación de la Ciencia y Tecnología (Corpdicyt)",
+                "operator:type": "private_non_profit",
+                "tourism": "museum",
+                "website": "http://www.corpdicyt.cl/minfantil/",
+                "wikidata": "Q20016884",
+                "wikipedia": "es:Museo Infantil (Chile)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6120982,
+                    -33.4423
+                ]
+            },
+            "properties": {
+                "addr:city": "Providencia",
+                "addr:country": "CL",
+                "addr:housenumber": "1690",
+                "addr:street": "Antonio Varas",
+                "name": "Museo Histórico de Carabineros",
+                "opening_hours": "Tu-Fr 09:00-17:00",
+                "tourism": "museum"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5543216,
+                    -33.4602006
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Las Campanas",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6442203,
+                    -33.4442429
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "adventist",
+                "name": "Templo Adventista",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6891563,
+                    -33.6004348
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Gruta Virgen Maria",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6161392,
+                    -33.5426085
+                ]
+            },
+            "properties": {
+                "addr:housenumber": "729",
+                "addr:street": "Esmeralda",
+                "amenity": "place_of_worship",
+                "name": "Capilla Virgen de los Pobres",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7023352,
+                    -33.6906121
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5265756,
+                    -33.4560772
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7371374,
+                    -33.4316157
+                ]
+            },
+            "properties": {
+                "addr:housenumber": "7306",
+                "addr:postcode": "9010290",
+                "addr:street": "Guillermo García Huidobro",
+                "amenity": "place_of_worship",
+                "building": "church",
+                "name": "Iglesia Metodista Pentecostal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6583446,
+                    -33.517011
+                ]
+            },
+            "properties": {
+                "addr:city": "La Cisterna",
+                "addr:street": "Gran Avenida José Miguel Carrera",
+                "amenity": "place_of_worship",
+                "denomination": "evangelical",
+                "name": "Iglesia Evangélica",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6448334,
+                    -33.4248166
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:country": "CL",
+                "addr:housenumber": "683",
+                "addr:street": "Avenida Recoleta",
+                "museum": "history",
+                "name": "Museo Histórico Dominico",
+                "opening_hours": "Tu-Fr 10:00-17:30",
+                "operator": "Servicio Nacional del Patrimonio Cultural",
+                "operator:type": "government",
+                "start_date": "2005",
+                "tourism": "museum",
+                "website": "http://www.museodominico.cl",
+                "wikidata": "Q16911655",
+                "wikimedia_commons": "Category:Museo Histórico Dominico",
+                "wikipedia": "es:Museo Histórico Dominico"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6778029,
+                    -33.5698275
+                ]
+            },
+            "properties": {
+                "addr:city": "El Bosque",
+                "addr:country": "CL",
+                "addr:housenumber": "638",
+                "addr:street": "Avenida Lo Martínez",
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Templo Getsemani",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7063344,
+                    -33.5844819
+                ]
+            },
+            "properties": {
+                "addr:city": "San Bernardo",
+                "addr:country": "CL",
+                "addr:street": "Avenida América",
+                "amenity": "place_of_worship",
+                "name": "Parroquia San Bernardo",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7014288,
+                    -33.5812769
+                ]
+            },
+            "properties": {
+                "addr:city": "San Bernardo",
+                "addr:country": "CL",
+                "addr:street": "Eyzaguirre",
+                "amenity": "place_of_worship",
+                "name": "Capilla Virgen del Carmen",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6728303,
+                    -33.5710639
+                ]
+            },
+            "properties": {
+                "addr:city": "El Bosque",
+                "addr:country": "CL",
+                "addr:housenumber": "11680",
+                "addr:street": "Juan Fernández",
+                "amenity": "place_of_worship",
+                "denomination": "pentecostal",
+                "name": "Iglesia Pentecostal Las Acacias",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6302469,
+                    -33.458961
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:housenumber": "1308",
+                "addr:street": "Santa Elena",
+                "alt_name": "FGS Chile (Santa Elena)",
+                "amenity": "place_of_worship",
+                "name": "Templo Budista FGS Chile - Santa Elena",
+                "phone": "+56 2 556 0056",
+                "religion": "buddhist",
+                "website": "https://www.templobudista-fgs.cl/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5716378,
+                    -33.6034746
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Santa Joaquina de Vedruna",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7470386,
+                    -33.5070558
+                ]
+            },
+            "properties": {
+                "addr:housenumber": "2390",
+                "addr:street": "Avenida Segunda Transversal",
+                "amenity": "place_of_worship",
+                "name": "Condominio Altos De Maipú"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7320783,
+                    -33.807215
+                ]
+            },
+            "properties": {
+                "addr:housenumber": "707",
+                "addr:street": "Avenida 18 de Septiembre",
+                "amenity": "place_of_worship",
+                "name": "Salón del Reino de los Testigos de Jehová"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6963552,
+                    -33.6069782
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.470297,
+                    -33.3443166
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Capilla De Emaus",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7476801,
+                    -33.7294436
+                ]
+            },
+            "properties": {
+                "addr:housenumber": "92",
+                "addr:street": "Avenida Bernardo O'Higgins",
+                "amenity": "place_of_worship",
+                "name": "Iglesia Metodista Pentecostal de Buin",
+                "name:es": "Iglesia Metodista Pentecostal de Buin",
+                "website": "http://www.impbuin.cl"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7452029,
+                    -33.8160147
+                ]
+            },
+            "properties": {
+                "addr:housenumber": "1361",
+                "addr:street": "Gilda Díaz Jirón",
+                "amenity": "place_of_worship",
+                "name": "Iglesia Metodista Pentecostal de Paine",
+                "name:es": "Iglesia Metodista Pentecostal de Paine",
+                "website": "http://www.imppaine.cl"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5254929,
+                    -33.5345104
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Animita"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5267072,
+                    -33.536294
+                ]
+            },
+            "properties": {
+                "leisure": "park",
+                "name": "El Valle"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5261667,
+                    -33.5383085
+                ]
+            },
+            "properties": {
+                "leisure": "park",
+                "name": "Plaza de Descanso"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5107613,
+                    -33.5307297
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Blanca Nieves"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5089138,
+                    -33.5308182
+                ]
+            },
+            "properties": {
+                "leisure": "park",
+                "name": "Plaza de Los Almendros"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5753625,
+                    -33.5476317
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "designation": "evangelical",
+                "name": "Iglesia Evangélica Pentecostal, Trinidad Oriente",
+                "name:es": "Iglesia Evangélica Pentecostal, Trinidad Oriente"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.593313,
+                    -33.4516923
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:housenumber": "356",
+                "addr:street": "Manuel de Salas",
+                "amenity": "place_of_worship",
+                "name": "Sede Nacional Bahá'í",
+                "religion": "bahai"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6433198,
+                    -33.4060572
+                ]
+            },
+            "properties": {
+                "addr:street": "Avenida Recoleta",
+                "amenity": "place_of_worship",
+                "name": "Ministerio Evangelistico",
+                "religion": "christian",
+                "source": "Reconocimiento cortográfico de campo 2016 por KG"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6707103,
+                    -33.4784451
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "protestant",
+                "name": "Iglesia de Cristo",
+                "religion": "christian",
+                "source": "Reconocimiento cortográfico de campo 2016 por KG"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6325849,
+                    -33.3643435
+                ]
+            },
+            "properties": {
+                "addr:city": "Huechuraba",
+                "addr:street": "Avenida Recoleta",
+                "amenity": "place_of_worship",
+                "name": "Iglesia Nain",
+                "religion": "christian",
+                "source": "Reconocimiento cartográfico de campo 2016 por KG."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7525323,
+                    -33.3537626
+                ]
+            },
+            "properties": {
+                "addr:street": "María Luisa Sepúlveda",
+                "amenity": "place_of_worship",
+                "name": "Iglesia Bautista La Gracia de Dios",
+                "religion": "christian",
+                "source": "Reconocimiento cortográfico de campo 2016 por KG"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6125802,
+                    -33.6203184
+                ]
+            },
+            "properties": {
+                "addr:street": "Avenida Juanita",
+                "amenity": "place_of_worship",
+                "name": "Libertad",
+                "religion": "christian",
+                "source": "Reconocimiento cortográfico de campo 2016 por KG"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5764601,
+                    -33.6074834
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia Universal",
+                "religion": "christian",
+                "source": "Reconocimiento cartográfico de campo 2016 por KG."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5977289,
+                    -33.394125
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Capilla Colegio Las Ursulinas",
+                "religion": "christian",
+                "source": "Reconocimiento cartográfico 2016 por KG"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6826922,
+                    -33.4511396
+                ]
+            },
+            "properties": {
+                "addr:street": "Avenida Ecuador",
+                "amenity": "place_of_worship",
+                "name": "Avivamiento Santiago",
+                "source": "Reconocimiento cortográfico de campo 2016 por KG"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7675247,
+                    -33.4633928
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Cementerio Parque del Sendero",
+                "name:es": "Cementerio Parque del Sendero"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6466035,
+                    -33.4523652
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:street": "San Francisco",
+                "amenity": "place_of_worship",
+                "name": "Comunidad Cristiana",
+                "source": "Reconocimiento cartográfico 2016 por KG."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6191471,
+                    -33.434991
+                ]
+            },
+            "properties": {
+                "addr:city": "Providencia",
+                "addr:street": "Avenida José Miguel Claro",
+                "amenity": "place_of_worship",
+                "denomination": "baptist",
+                "name": "Seminario Teológico Bautista",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7301789,
+                    -33.4351419
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia de Cristo",
+                "religion": "christian",
+                "source": "Reconocimiento cartográfico 2016 por KG."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7670036,
+                    -33.4424123
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Templo Pudahuel",
+                "religion": "christian",
+                "source": "Reconocimiento cartográfico 2016 por KG."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6055996,
+                    -33.5880929
+                ]
+            },
+            "properties": {
+                "addr:street": "La Fragua",
+                "amenity": "place_of_worship",
+                "name:en": "United Metodist Church \"Nort High Bridge\".",
+                "name:es": "Iglesia Metodista Pentecostal Unida Puente Alto Norte.",
+                "opening_hours": "Tu-Th 19:00-21:00; Su 09:00-13:00, 17:00-21:00",
+                "website": "http://www.iump.cl"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6065945,
+                    -33.5889905
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia del Evangelio Cuadrangular",
+                "name:es": "Iglesia del Evangelio Cuadrangular"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6047557,
+                    -33.5852473
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia Metodista Pentecostal de Chile Ready",
+                "name:es": "Iglesia Metodista Pentecostal de Chile Ready"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5960818,
+                    -33.5817317
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Clase Gabriela poniente",
+                "name:es": "Clase Gabriela poniente"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5652599,
+                    -33.6177606
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5997528,
+                    -33.5818464
+                ]
+            },
+            "properties": {
+                "addr:street": "Avenida Gabriela Poniente",
+                "amenity": "place_of_worship",
+                "name": "Iglesia Bautista Gabriela",
+                "name:en": "Gabriela Baptist Church",
+                "name:es": "Iglesia Bautista Gabriela",
+                "website": "http://www.bbnradio.net"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5967382,
+                    -33.5876644
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia Pentecostal de Chile",
+                "name:es": "Iglesia Pentecostal de Chile"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6140808,
+                    -33.5606569
+                ]
+            },
+            "properties": {
+                "addr:street": "Pasaje El Salomé",
+                "amenity": "place_of_worship",
+                "name": "Iglesia Pentecostal",
+                "religion": "christian",
+                "source": "Reconocimiento cortográfico de campo 2016 por KG"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6251753,
+                    -33.5605391
+                ]
+            },
+            "properties": {
+                "addr:street": "Gabriela Figueroa",
+                "amenity": "place_of_worship",
+                "name": "Iglesia La Pintana",
+                "religion": "christian",
+                "source": "Reconocimiento cortográfico de campo 2016 por KG"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6438742,
+                    -33.5241159
+                ]
+            },
+            "properties": {
+                "addr:street": "Santa Ana",
+                "amenity": "place_of_worship",
+                "name": "Iglesia Evangelica",
+                "religion": "christian",
+                "source": "Reconocimiento cortográfico de campo 2016 por KG"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.556523,
+                    -33.4180166
+                ]
+            },
+            "properties": {
+                "addr:city": "Las Condes",
+                "addr:street": "Avenida Cristóbal Colón",
+                "amenity": "place_of_worship",
+                "name": "Casa de Oración Tiempos de Fe",
+                "source": "Reconocimiento cartográfico de campo 2016 por KG."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6461289,
+                    -33.5440892
+                ]
+            },
+            "properties": {
+                "addr:street": "Goycolea",
+                "amenity": "place_of_worship",
+                "name": "Iglesia del Barrio San Ramón",
+                "religion": "christian",
+                "source": "Reconocimiento cortográfico de campo 2016 por KG"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6660104,
+                    -33.5542441
+                ]
+            },
+            "properties": {
+                "addr:street": "Baquedano",
+                "amenity": "place_of_worship",
+                "name": "Iglesia Santa Sion",
+                "religion": "christian",
+                "source": "Reconocimiento cortográfico de campo 2016 por KG"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5372855,
+                    -33.3861679
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia Alianza Cristiana y Misionera",
+                "religion": "christian",
+                "source": "Reconocimiento cartográfico de campo 2016 por KG."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6363854,
+                    -33.5596794
+                ]
+            },
+            "properties": {
+                "addr:street": "La Vendimia",
+                "amenity": "place_of_worship",
+                "name": "Iglesia Metodista Pentecostal Chile",
+                "religion": "christian",
+                "source": "Reconocimiento cartográfico de campo 2016 por KG."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6382142,
+                    -33.5620651
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Templo Evangelico",
+                "religion": "christian",
+                "source": "Reconocimiento cartográfico de campo 2016 por KG."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.637943,
+                    -33.5630616
+                ]
+            },
+            "properties": {
+                "addr:street": "Antonio Machado",
+                "amenity": "place_of_worship",
+                "name": "Iglesia El Arca de Dios",
+                "religion": "christian",
+                "source": "Reconocimiento cartográfico de campo 2016 por KG."
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6908071,
+                    -33.0284945
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia Hacienda chacabuco"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5926358,
+                    -33.6090752
+                ]
+            },
+            "properties": {
+                "addr:street": "Calderón de la Barca",
+                "amenity": "place_of_worship",
+                "name": "Capilla Nuestra Señora de Fatima",
+                "name:es": "Capilla Nuestra Señora de Fatima"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.8251519,
+                    -33.7739858
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Cruz de Cristo",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.8264807,
+                    -33.7724244
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Capilla Nuestra Señora del Carmen",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6194764,
+                    -33.5907648
+                ]
+            },
+            "properties": {
+                "addr:housenumber": "2990",
+                "addr:street": "Batallón Chacabuco",
+                "amenity": "place_of_worship",
+                "name": "Parroquia"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.604603,
+                    -33.4522134
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Monasterio Carmelita De San José",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6640798,
+                    -33.5632528
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Capilla Nuestra Señora del Carmen - Parroquia de San Columbano",
+                "name:en": "Our Lady of Mount Carmel Chapel"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6667188,
+                    -33.5583521
+                ]
+            },
+            "properties": {
+                "addr:postcode": "8010000",
+                "addr:street": "Jorge Luco",
+                "amenity": "place_of_worship",
+                "name": "Capilla Sagrada Familia - Parroquia San Columbano",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6585406,
+                    -33.5612595
+                ]
+            },
+            "properties": {
+                "addr:postcode": "8010000",
+                "addr:street": "Las Loicas",
+                "amenity": "place_of_worship",
+                "name": "Capilla Enrique Alvear - Parroquia San Columbano"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6643206,
+                    -33.5642547
+                ]
+            },
+            "properties": {
+                "addr:street": "Antonio Varas",
+                "amenity": "place_of_worship",
+                "name": "Capilla Nuestra Señora del Carmen, Parroquia de San Columbano",
+                "name:es": "Capilla Nuestra Señora del Carmen, Parroquia de San Columbano",
+                "opening_hours": "Su 09:00-11:00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6731617,
+                    -33.4475853
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Congregación Purísimo Corazoón de María",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.9281186,
+                    -33.0801594
+                ]
+            },
+            "properties": {
+                "addr:housenumber": "734",
+                "addr:street": "Arturo Prat",
+                "amenity": "place_of_worship",
+                "denomination": "pentecostal",
+                "name": "Iglesia Evangélica Pentecostal Tiltil",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7309324,
+                    -33.4742937
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia Nuestra Señora del Pilar",
+                "name:es": "Iglesia Nuestra Señora del Pilar"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7308784,
+                    -33.4753756
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia Nuestra Señora del Pilar"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6441287,
+                    -33.4270092
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia Coreana Youngrak",
+                "name:en": "Youngrak Church",
+                "name:es": "Iglesia Coreana Youngrak",
+                "name:ko": "영락교회",
+                "official_name:ko": "칠레영락교회"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7316135,
+                    -33.4650566
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6804896,
+                    -33.5707573
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Capilla Villa El Esfuerzo",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5342513,
+                    -33.4729514
+                ]
+            },
+            "properties": {
+                "addr:street": "Avenida Las Parcelas",
+                "amenity": "place_of_worship",
+                "name": "Templo Parroquia Católico"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6369891,
+                    -33.4234113
+                ]
+            },
+            "properties": {
+                "addr:city": "Recoleta",
+                "addr:street": "Avenida Santos Dumont",
+                "leisure": "park",
+                "name": "Acceso ParqueMet"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6452372,
+                    -33.4797264
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Parroquia La Resurreción del Señor",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.8539739,
+                    -33.8326075
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Cristo"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6100557,
+                    -33.4764129
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "evangelical",
+                "name": "Iglesia Evangeliaca Villa Santa Carolina",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6324943,
+                    -33.3739032
+                ]
+            },
+            "properties": {
+                "addr:housenumber": "467",
+                "addr:street": "República de Guyana",
+                "amenity": "place_of_worship",
+                "name": "Iglesia Adventista"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5560343,
+                    -33.5198831
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Centro Juvenil Don Bosco",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6070539,
+                    -33.5064164
+                ]
+            },
+            "properties": {
+                "addr:country": "CL",
+                "name": "Museo CSD Colo Colo",
+                "tourism": "museum"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6736642,
+                    -33.5703247
+                ]
+            },
+            "properties": {
+                "addr:city": "El Bosque",
+                "addr:country": "CL",
+                "addr:street": "Avenida Padre Hurtado",
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Parroquia del Espíritu Santo",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.8620758,
+                    -33.7349144
+                ]
+            },
+            "properties": {
+                "addr:street": "Río Maipo",
+                "amenity": "place_of_worship",
+                "name": "Capilla, nuestra señora de Guadalupe",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.668193,
+                    -33.1961334
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Capilla San Francisco De Asis",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7357796,
+                    -33.7621342
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia de Linderos"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6801962,
+                    -33.4395398
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Santuario Cristo Pobre",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6459725,
+                    -33.5373069
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Parroquia Santo Domingo Savio"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.9074425,
+                    -33.6079183
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Virgen",
+                "religion": "christian",
+                "service_times": "Sin horario"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6509728,
+                    -33.4362529
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:country": "CL",
+                "addr:housenumber": "978",
+                "addr:street": "Santo Domingo",
+                "amenity": "fire_station",
+                "email": "contacto.mubo@cbs.cl",
+                "name": "Museo de Bomberos de Santiago (MUBO)",
+                "opening_hours": "Tu-Sa 10:00-18:00",
+                "tourism": "museum",
+                "website": "https://mubo.cl/",
+                "wikidata": "Q76824234",
+                "wikimedia_commons": "Category:Museo de Bomberos de Santiago",
+                "wikipedia": "es:Museo de Bomberos de Santiago"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6235374,
+                    -33.4488123
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "cité arte",
+                "name:es": "cité arte"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6236528,
+                    -33.4575713
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Segundo Monasterio De La Visitación",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6229205,
+                    -33.4575556
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Casa De Retiro San Francisco Javier",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6124382,
+                    -33.555867
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Casa Belén",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6986615,
+                    -33.4633769
+                ]
+            },
+            "properties": {
+                "addr:housenumber": "125",
+                "addr:street": "Avenida Padre Jaime Larraín",
+                "amenity": "place_of_worship",
+                "denomination": "roman_catholic",
+                "name": "Parroquia Jesús de Nazaret",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5572279,
+                    -33.5966271
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6186078,
+                    -33.4673382
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Capilla Santa Cruz",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6751391,
+                    -33.4397152
+                ]
+            },
+            "properties": {
+                "addr:country": "CL",
+                "name": "Centro Cultural Casa Quemada",
+                "tourism": "museum"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.8665661,
+                    -33.7475291
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Capilla Nuestra Señora del Carmen",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5844686,
+                    -33.6745973
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Cruz en Pirque",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5516039,
+                    -33.705842
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia Petencostal Amanecer Glorioso",
+                "religion": "christian",
+                "service_times": "Martes - Jueves - Domingo 18:hrs"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7540569,
+                    -33.6335015
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "roman_catholic",
+                "name": "Capilla Colegio San Bartolomé",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.546909,
+                    -33.4209279
+                ]
+            },
+            "properties": {
+                "addr:housenumber": "8040",
+                "addr:street": "Alonso de Camargo",
+                "amenity": "place_of_worship",
+                "building": "yes",
+                "denomination": "lutheran",
+                "name": "Iglesia Luterana “El Buen Pastor”",
+                "name:de": "Deutsche Kirche „Zum Guten Hirten“",
+                "network:wikidata": "Q19595546",
+                "religion": "christian",
+                "website": "https://lareconciliacion.cl/",
+                "wikidata": "Q116977133",
+                "wikimedia_commons": "Category:Evangelisch-Lutherische Versöhnungsgemeinde Santiago",
+                "wikipedia": "es:Iglesia Evangélica Luterana El Buen Pastor (Santiago de Chile)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5994851,
+                    -33.4985117
+                ]
+            },
+            "properties": {
+                "addr:city": "Macul",
+                "addr:street": "Samuel Roman Rojas",
+                "amenity": "place_of_worship",
+                "name": "San Norberto",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7386325,
+                    -33.4161649
+                ]
+            },
+            "properties": {
+                "addr:city": "Cerro Navia",
+                "addr:housenumber": "7313",
+                "addr:postcode": "9100277",
+                "addr:street": "Chilonga",
+                "amenity": "place_of_worship",
+                "denomination": "pentecostal",
+                "name": "Iglesia Unida Metodista",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7435865,
+                    -33.4150805
+                ]
+            },
+            "properties": {
+                "addr:city": "Cerro Navia",
+                "addr:housenumber": "1773",
+                "addr:postcode": "9090184",
+                "addr:street": "Islas Azores",
+                "amenity": "place_of_worship",
+                "denomination": "pentecostal",
+                "name": "Misión de Iglesias Evangelicas de Las Sendas Antiguas Pentecostal",
+                "religion": "christian",
+                "source": "aerial imagery"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6456143,
+                    -33.464143
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Parroquia San Felipe de Jesús",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6837071,
+                    -33.4928451
+                ]
+            },
+            "properties": {
+                "addr:city": "Pedro Aguirre Cerda",
+                "addr:country": "CL",
+                "addr:housenumber": "4426",
+                "addr:postcode": "8470135",
+                "addr:street": "General Mora",
+                "amenity": "place_of_worship",
+                "building": "chapel",
+                "building:levels": "1",
+                "denomination": "pentecostal",
+                "name": "Ministerio Águilas Generación Águilas",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5990306,
+                    -33.6074699
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Capilla San Alberto Hurtado",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.0508778,
+                    -33.6901491
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia El Paico",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5866024,
+                    -33.4927169
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "capilla san sebastian",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.8190667,
+                    -33.630365
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Capilla Los Tilos"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.9297153,
+                    -33.0857156
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "catholic",
+                "name": "Iglesia Nuestra Señora del Carmen",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.8700827,
+                    -33.2802585
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Ruca Wetripantu",
+                "religion": "mapuche"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.8703215,
+                    -33.2806487
+                ]
+            },
+            "properties": {
+                "leisure": "park",
+                "name": "juegos infantiles"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6058756,
+                    -33.3736873
+                ]
+            },
+            "properties": {
+                "addr:city": "Huechuraba",
+                "addr:street": "Camino Bosque Santiago",
+                "alt_name": "Museo de la Vivienda Chilena",
+                "check_date": "2024-02-26",
+                "museum": "open_air",
+                "name": "Museo de la Vivienda Tradicional Local",
+                "opening_hours": "Tu-Su 10:00-19:00",
+                "operator": "ParqueMet",
+                "operator:type": "public",
+                "start_date": "2019",
+                "tourism": "museum",
+                "wikidata": "Q86278859",
+                "wikipedia": "es:Museo de la Vivienda Tradicional Local"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6995512,
+                    -33.5171026
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Asamblea de Dios Autónoma"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7029642,
+                    -33.2752447
+                ]
+            },
+            "properties": {
+                "addr:city": "Colina",
+                "amenity": "place_of_worship",
+                "name": "Capilla San Nicolás"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6436751,
+                    -33.5423486
+                ]
+            },
+            "properties": {
+                "leisure": "park",
+                "name": "Plaza Mayor de San Ramón"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6444144,
+                    -33.5421563
+                ]
+            },
+            "properties": {
+                "leisure": "park",
+                "name": "Plaza del Pueblo"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7392916,
+                    -33.3558033
+                ]
+            },
+            "properties": {
+                "addr:housenumber": "744",
+                "addr:street": "Pasaje Williams Braden",
+                "amenity": "place_of_worship",
+                "denomination": "seventh_day_adventist",
+                "name": "Iglesia Adventista del Séptimo Día - Quilicura Norte",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5779186,
+                    -33.459143
+                ]
+            },
+            "properties": {
+                "addr:city": "Ñuñoa",
+                "addr:street": "Dublé Almeyda",
+                "amenity": "place_of_worship",
+                "denomination": "roman_catholic",
+                "name": "Convento San Agustín (Agustinos)",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6780096,
+                    -33.3889934
+                ]
+            },
+            "properties": {
+                "addr:housenumber": "4284",
+                "addr:street": "Avenida Fermín Vivaceta",
+                "amenity": "place_of_worship",
+                "name": "Parroquia Nuestra Señora del Olivo",
+                "phone": "+56227286852",
+                "religion": "christian",
+                "start_date": "1961-06-06",
+                "website": "http://www.parroquiadelolivo.cl/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6118699,
+                    -33.4193103
+                ]
+            },
+            "properties": {
+                "addr:city": "Providencia",
+                "addr:housenumber": "2201",
+                "addr:street": "Avenida Santa María",
+                "architect": "Germán Bannen y Jorge Oyarzún",
+                "museum": "open_air",
+                "name": "Museo al Aire Libre Parque de Las Esculturas",
+                "operator": "Corporación Cultural de Providencia",
+                "operator:type": "public",
+                "start_date": "1986-12-17",
+                "tourism": "museum",
+                "wikidata": "Q16616308",
+                "wikimedia_commons": "Category:Parque de las Esculturas",
+                "wikipedia": "es:Parque de las Esculturas"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6004051,
+                    -33.4485516
+                ]
+            },
+            "properties": {
+                "addr:city": "Ñuñoa",
+                "addr:housenumber": "3100",
+                "addr:postcode": "7770427",
+                "addr:street": "Avenida Suecia",
+                "air_conditioning": "yes",
+                "amenity": "place_of_worship",
+                "check_date": "2023-04-16",
+                "denomination": "catholic",
+                "internet_access": "no",
+                "name": "Oficina Parroquial y Servicios Funerarios Santa Gema",
+                "opening_hours:covid19": "off",
+                "operator": "Padres Pasionistas",
+                "payment:cash": "yes",
+                "religion": "christian",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6535908,
+                    -33.4489721
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5912075,
+                    -33.8289058
+                ]
+            },
+            "properties": {
+                "leisure": "park",
+                "name": "Parque La Vacada",
+                "operator": "Parque La Vacada"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6242898,
+                    -33.4369558
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6320461,
+                    -33.4463218
+                ]
+            },
+            "properties": {
+                "addr:city": "Providencia",
+                "addr:housenumber": "420",
+                "addr:street": "Avenida Vicuña Mackenna",
+                "amenity": "place_of_worship",
+                "denomination": "roman_catholic",
+                "name": "Iglesia de las Agustinas",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6709986,
+                    -33.5681318
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "jehovahs_witness",
+                "name": "Salón Testigos de Jehová",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6193778,
+                    -33.4164179
+                ]
+            },
+            "properties": {
+                "addr:street": "Avenida Abate Molina",
+                "leisure": "park",
+                "name": "Plaza Peñihue",
+                "operator": "Parquemet"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7660756,
+                    -33.4851403
+                ]
+            },
+            "properties": {
+                "addr:city": "Maipú",
+                "addr:housenumber": "5387",
+                "addr:street": "Avenida El Rosal",
+                "amenity": "place_of_worship",
+                "name": "Palabra Poder",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6969893,
+                    -33.4329187
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia Medalla Milagrosa",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6391557,
+                    -33.4577375
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:housenumber": "494",
+                "addr:street": "Avenida Manuel Antonio Matta",
+                "amenity": "place_of_worship",
+                "name": "Iglesia y Claustro Santísimo Sacramento",
+                "website": "https://www.buenpastor.cl/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5416817,
+                    -33.4082455
+                ]
+            },
+            "properties": {
+                "name": "Museo de Cera Las Condes",
+                "tourism": "museum",
+                "wikidata": "Q65926757",
+                "wikimedia_commons": "Category:Museo de Cera de Las Condes",
+                "wikipedia": "es:Museo de Cera de Las Condes"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5078073,
+                    -33.3451313
+                ]
+            },
+            "properties": {
+                "leisure": "park",
+                "name": "Plaza La Laguna"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7896236,
+                    -33.5549937
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "denomination": "jehovahs_witness",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.9188737,
+                    -33.213231
+                ]
+            },
+            "properties": {
+                "fixme": "categorizar área",
+                "leisure": "park",
+                "name": "Área de Preservación Ecológica Altos de Chicauma"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6232762,
+                    -33.6136133
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Capilla Sagrada Familia",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5079591,
+                    -33.350955
+                ]
+            },
+            "properties": {
+                "addr:city": "Lo Barnechea",
+                "addr:housenumber": "13566",
+                "addr:street": "Avenida El Rodeo",
+                "leisure": "park",
+                "name": "Parque El Huinganal",
+                "opening_hours": "Mo-Su 08:00-18:00",
+                "operator": "Municipalidad de Lo Barnechea"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6009716,
+                    -33.5345446
+                ]
+            },
+            "properties": {
+                "addr:city": "La Florida",
+                "addr:housenumber": "8710",
+                "addr:street": "Lircay",
+                "amenity": "place_of_worship",
+                "denomination": "roman_catholic",
+                "name": "Capilla Arnoldo Jansen",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.8690592,
+                    -33.6047656
+                ]
+            },
+            "properties": {
+                "addr:housenumber": "1497",
+                "amenity": "place_of_worship",
+                "denomination": "jehovahs_witness",
+                "name": "Salón del Reino de los Testigos de Jehová",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6533205,
+                    -33.4457192
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:country": "CL",
+                "addr:street": "Avenida Presidente Bulnes",
+                "alt_name": "Panteón de los Héroes de la Patria",
+                "building": "yes",
+                "fee": "no",
+                "museum": "history",
+                "name": "Altar de la Patria",
+                "operator": "Escuela Militar del Libertador Bernardo O'Higgins",
+                "operator:type": "public",
+                "start_date": "20007",
+                "tourism": "museum",
+                "wikidata": "Q25414728",
+                "wikipedia": "es:Altar de la Patria (Chile)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6136558,
+                    -33.4921505
+                ]
+            },
+            "properties": {
+                "addr:city": "Macul",
+                "addr:street": "Arturo Prat",
+                "alt_name": "Museo a Cielo Abierto Macul",
+                "museum": "open_air",
+                "name": "Museo Macul Vimasur",
+                "opening_hours": "24/7",
+                "operator": "Corporación CulturalHa Crew y Junta de Vecinos Población Vicuña Mackenna Sur",
+                "operator:type": "community",
+                "short_name": "MUMA",
+                "start_date": "2022-09-04",
+                "tourism": "museum",
+                "website": "https://www.museomacul.cl/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.580745,
+                    -33.4828894
+                ]
+            },
+            "properties": {
+                "addr:city": "Macul",
+                "leisure": "park",
+                "name": "Plaza Halley"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6758062,
+                    -33.4421898
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:housenumber": "2919",
+                "addr:street": "Huérfanos",
+                "museum": "technology",
+                "name": "Museo del Sonido",
+                "operator": "Fundación Mariana Préndez de Casanueva",
+                "tourism": "museum",
+                "website": "https://www.museodelsonido.cl/",
+                "wikidata": "Q86280105",
+                "wikimedia_commons": "Category:Museo del Sonido",
+                "wikipedia": "es:Museo del Sonido"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6528467,
+                    -33.4436168
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:housenumber": "25",
+                "addr:street": "Morandé",
+                "check_date": "2023-05-20",
+                "fee": "no",
+                "level": "-2",
+                "museum": "history",
+                "name": "Museo del Ahorro",
+                "opening_hours": "Mo-Fr 09:00-14:00",
+                "operator": "Banco Estado",
+                "operator:type": "business",
+                "start_date": "1992-12-22",
+                "tourism": "museum",
+                "wikidata": "Q24942099",
+                "wikimedia_commons": "Category:Museo del Ahorro",
+                "wikipedia": "es:Museo del Ahorro"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5955066,
+                    -33.4649954
+                ]
+            },
+            "properties": {
+                "addr:city": "Ñuñoa",
+                "addr:street": "Avenida Grecia",
+                "fee": "no",
+                "museum": "art",
+                "name": "Museo de Arte Popular Americano Tomás Lago (MAPA)",
+                "operator": "Universidad de Chile",
+                "operator:type": "university",
+                "start_date": "1944-12-20",
+                "tourism": "museum",
+                "website": "https://mapa.uchile.cl/",
+                "wikidata": "Q2894417",
+                "wikipedia": "es:Museo de Arte Popular Americano"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6449615,
+                    -33.4244775
+                ]
+            },
+            "properties": {
+                "addr:city": "Recoleta",
+                "addr:street": "Avenida Recoleta",
+                "museum": "art",
+                "name": "Museo de Artes Decorativas",
+                "opening_hours": "Tu-Fr 10:00-17:30",
+                "operator": "Centro Patrimonial de la Recoleta Dominica",
+                "operator:type": "government",
+                "start_date": "2005",
+                "tourism": "museum",
+                "website": "http://www.artdec.cl/",
+                "wikidata": "Q16494160",
+                "wikimedia_commons": "Category:Museo de Artes Decorativas, Santiago de Chile",
+                "wikipedia": "es:Museo de Artes Decorativas (Santiago de Chile)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6522664,
+                    -33.4442118
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:street": "Avenida Libertador Bernardo O'Higgins",
+                "leisure": "park",
+                "name": "Plaza Libertad"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6434401,
+                    -33.4353501
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:housenumber": "650",
+                "addr:street": "José Miguel de la Barra",
+                "fee": "no",
+                "museum": "art",
+                "name": "Museo Nacional de Bellas Artes",
+                "old_name": "Museo Nacional de Pinturas",
+                "operator": "Servicio Nacional del Patrimonio Cultural",
+                "operator:type": "public",
+                "short_name": "MNBA",
+                "start_date": "1880",
+                "tourism": "museum",
+                "website": "http://www.mnba.cl/",
+                "wikidata": "Q775376",
+                "wikimedia_commons": "Category:Museo Nacional de Bellas Artes, Chile",
+                "wikipedia": "es:Museo Nacional de Bellas Artes (Chile)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.63607,
+                    -33.4370031
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:housenumber": "50",
+                "addr:street": "Merced",
+                "museum": "science",
+                "name": "Museo de Química y Farmacia",
+                "tourism": "museum",
+                "wikidata": "Q111972327",
+                "wikimedia_commons": "Category:Museo de Química y Farmacia Profesor César Leyton Caravagno",
+                "wikipedia": "es:Museo de Química y Farmacia Profesor César Leyton Caravagno"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6565849,
+                    -33.4523832
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:housenumber": "438",
+                "addr:street": "Dieciocho",
+                "museum": "history",
+                "name": "Museo Palacio Cousiño",
+                "operator": "Santiago Cultura",
+                "operator:type": "public",
+                "tourism": "museum",
+                "website": "http://www.palaciocousino.cl/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6559063,
+                    -33.4321095
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:housenumber": "1301",
+                "addr:street": "Avenida Presidente Balmaceda",
+                "museum": "art",
+                "name": "Museo del Circo Nacional",
+                "tourism": "museum"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6528204,
+                    -33.4411376
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:housenumber": "1180",
+                "addr:street": "Agustinas",
+                "museum": "history",
+                "name": "Museo Numismático",
+                "old_name": "Museo de la Historia Monetaria de Chile",
+                "operator": "Banco Central de Chile",
+                "operator:type": "business",
+                "tourism": "museum",
+                "website": "https://www.museobancocentral.cl/",
+                "wikidata": "Q86279665",
+                "wikimedia_commons": "Category:Museo Numismático del Banco Central de Chile",
+                "wikipedia": "es:Museo Numismático del Banco Central de Chile"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6516195,
+                    -33.4378771
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:street": "Plaza de Armas",
+                "museum": "art",
+                "name": "Museo de Arte Sagrado",
+                "operator": "Catedral Metropolitana de Santiago",
+                "operator:type": "religious",
+                "tourism": "museum",
+                "website": "https://www.iglesiadesantiago.cl/",
+                "wikidata": "Q6940532",
+                "wikipedia": "es:Museo de Arte Sagrado"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6548073,
+                    -33.4177998
+                ]
+            },
+            "properties": {
+                "addr:city": "Recoleta",
+                "addr:housenumber": "1130",
+                "addr:street": "Profesor Alberto Zañartu",
+                "name": "Museo de Anatomía",
+                "operator": "Facultad de Medicina U. de Chile",
+                "operator:type": "university",
+                "tourism": "museum",
+                "wikidata": "Q106651137",
+                "wikipedia": "es:Museo de Anatomía"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6555141,
+                    -33.4193457
+                ]
+            },
+            "properties": {
+                "addr:city": "Independencia",
+                "addr:housenumber": "1027",
+                "addr:street": "Avenida Independencia",
+                "name": "Museo Nacional de Medicina Dr. Enrique Laval",
+                "operator": "Universidad de Chile",
+                "operator:type": "university",
+                "tourism": "museum",
+                "wikidata": "Q29983304",
+                "wikimedia_commons": "Category:Museo Nacional de Medicina Dr Enrique Laval",
+                "wikipedia": "es:Museo Nacional de Medicina Dr. Enrique Laval"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6236501,
+                    -33.4823755
+                ]
+            },
+            "properties": {
+                "leisure": "park",
+                "name": "Las 4 Plazas"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6506217,
+                    -33.4371206
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:housenumber": "951",
+                "addr:street": "Libertador Bernardo O'Higgins",
+                "building": "yes",
+                "email": "oirs@dibam.cl",
+                "fee": "no",
+                "museum": "history",
+                "name": "Museo Histórico Nacional",
+                "phone": "+56 2 2360 5272",
+                "tourism": "museum",
+                "wikidata": "Q3647931",
+                "wikimedia_commons": "Category:Museo Histórico Nacional, Chile",
+                "wikipedia": "es:Palacio de la Real Audiencia de Santiago"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.534987,
+                    -33.3965576
+                ]
+            },
+            "properties": {
+                "addr:city": "Las Condes",
+                "addr:street": "Camino del Observatorio",
+                "leisure": "park",
+                "name": "Parque Cerro Calán",
+                "website": "https://www.parquecerrocalan.cl/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6511012,
+                    -33.4916877
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "check_date": "2023-06-25",
+                "denomination": "catholic",
+                "internet_access": "no",
+                "name": "Salón Padre Claret",
+                "payment:cards": "no",
+                "payment:credit_cards": "no",
+                "payment:debit_cards": "no",
+                "religion": "christian",
+                "wheelchair": "no"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6512962,
+                    -33.4917395
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "check_date": "2023-06-25",
+                "denomination": "roman_catholic",
+                "internet_access": "no",
+                "name": "Parroquia San Antonio María Claret",
+                "payment:cards": "no",
+                "payment:credit_cards": "no",
+                "payment:debit_cards": "no",
+                "religion": "christian",
+                "wheelchair": "yes"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.1208176,
+                    -33.3989114
+                ]
+            },
+            "properties": {
+                "addr:city": "Curacaví",
+                "addr:street": "El Quillay",
+                "leisure": "park",
+                "name": "Parque San Mateo",
+                "operator": "Corporación Ecológica del Parque San Mateo",
+                "operator:type": "community",
+                "start_date": "2018",
+                "website": "https://www.facebook.com/parqsanmateo"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.633332,
+                    -33.5699816
+                ]
+            },
+            "properties": {
+                "name": "Museo Entomológico Luis Peña Guzmán",
+                "tourism": "museum"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6307866,
+                    -33.5703134
+                ]
+            },
+            "properties": {
+                "leisure": "park",
+                "name": "Arboretrum"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5005825,
+                    -33.4072138
+                ]
+            },
+            "properties": {
+                "leisure": "park",
+                "name": "Plaza Endémico"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.4954058,
+                    -33.4070951
+                ]
+            },
+            "properties": {
+                "leisure": "park",
+                "name": "Plaza Montana"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.9780217,
+                    -33.6778427
+                ]
+            },
+            "properties": {
+                "addr:city": "El Monte",
+                "addr:street": "Independencia",
+                "museum": "local",
+                "name": "Museo del Libro José Santos González Vera",
+                "tourism": "museum",
+                "website": "https://www.registromuseoschile.cl/663/w3-article-98705.html"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6203606,
+                    -33.3995649
+                ]
+            },
+            "properties": {
+                "addr:city": "Recoleta",
+                "addr:street": "Los Turistas",
+                "leisure": "park",
+                "name": "Núcleo de Restauración Nativa",
+                "operator": "ParqueMet",
+                "operator:type": "public"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.9787891,
+                    -33.6778923
+                ]
+            },
+            "properties": {
+                "addr:city": "El Monte",
+                "museum": "history",
+                "name": "Museo Patrimonial Contemporáneo San Francisco del Monte",
+                "tourism": "museum"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6838376,
+                    -33.2840797
+                ]
+            },
+            "properties": {
+                "addr:city": "Colina",
+                "addr:street": "Av. Chicureo, KM 1,7 Interior 150 metros",
+                "leisure": "park",
+                "name": "PlayBeats"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6501643,
+                    -33.4101971
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Arbol Frutal"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5904022,
+                    -33.4622884
+                ]
+            },
+            "properties": {
+                "addr:city": "Ñuñoa",
+                "addr:housenumber": "722",
+                "addr:street": "Santa Julia",
+                "amenity": "place_of_worship",
+                "denomination": "tibetan",
+                "name": "Centro Budista Camino del Diamante",
+                "religion": "buddhist"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.9004131,
+                    -33.7548303
+                ]
+            },
+            "properties": {
+                "name": "Museo Parroquial de Isla de Maipo",
+                "tourism": "museum"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7218695,
+                    -33.8811314
+                ]
+            },
+            "properties": {
+                "addr:housenumber": "171",
+                "addr:street": "El Sauce",
+                "amenity": "place_of_worship"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7196298,
+                    -33.8760075
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia El Sauce"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.0849454,
+                    -33.5737624
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Parroquia Mallarauco"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7474797,
+                    -33.508434
+                ]
+            },
+            "properties": {
+                "addr:city": "Maipú",
+                "addr:housenumber": "2010",
+                "addr:street": "Avenida Segunda Transversal",
+                "museum": "nature",
+                "name": "Museo del Agua SMAPA",
+                "operator": "SMAPA",
+                "operator:type": "local_authority",
+                "tourism": "museum"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.7807345,
+                    -33.4042655
+                ]
+            },
+            "properties": {
+                "addr:city": "Renca",
+                "leisure": "park",
+                "name": "Plaza del Encuentro",
+                "operator": "MOP",
+                "operator:type": "government"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5065909,
+                    -33.4669351
+                ]
+            },
+            "properties": {
+                "leisure": "park",
+                "name": "Plaza del Quillay",
+                "operator": "Parque Cordillera"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5837954,
+                    -33.4122319
+                ]
+            },
+            "properties": {
+                "addr:city": "Las Condes",
+                "addr:housenumber": "4601",
+                "addr:street": "Avenida Presidente Riesco",
+                "check_date": "2024-05-29",
+                "museum": "history",
+                "name": "Museo Militar",
+                "operator": "Ejército de Chile",
+                "operator:type": "government",
+                "start_date": "2009-03",
+                "tourism": "museum"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.562683,
+                    -33.3863141
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Iglesia Los Castaños",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6512464,
+                    -33.4444723
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:street": "Avenida Libertador Bernardo O'Higgins",
+                "museum": "history",
+                "name": "Sala Museo Gabriela Mistral",
+                "operator": "U. De Chile",
+                "operator:type": "university",
+                "tourism": "museum"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5938873,
+                    -33.4460856
+                ]
+            },
+            "properties": {
+                "addr:city": "Providencia",
+                "amenity": "place_of_worship",
+                "name": "Templo",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6188619,
+                    -33.6316497
+                ]
+            },
+            "properties": {
+                "addr:street": "El Sauce",
+                "amenity": "place_of_worship",
+                "building": "chapel",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5361994,
+                    -33.4841832
+                ]
+            },
+            "properties": {
+                "addr:city": "Peñalolen",
+                "addr:housenumber": "casa P",
+                "addr:street": "Sendero del Olmo",
+                "amenity": "place_of_worship",
+                "denomination": "antroposophical",
+                "name": "Comunidad de Cristianos",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.3988323,
+                    -33.3730503
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "historic": "wayside_shrine",
+                "name": "Hermita"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5538666,
+                    -33.3355928
+                ]
+            },
+            "properties": {
+                "addr:city": "Lo Barnechea",
+                "addr:housenumber": "4336",
+                "addr:street": "Camino Real",
+                "amenity": "place_of_worship",
+                "name": "Casa de Retiros La Dehesa",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5812528,
+                    -33.5737565
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Gruta"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.5611295,
+                    -33.5779999
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6802542,
+                    -33.4519658
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "name": "Romualdito",
+                "religion": "multifaith"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6329697,
+                    -33.8532313
+                ]
+            },
+            "properties": {
+                "amenity": "place_of_worship",
+                "religion": "christian"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.9014866,
+                    -33.8067497
+                ]
+            },
+            "properties": {
+                "addr:city": "Valdivia de Paine",
+                "addr:street": "Los Boldos",
+                "amenity": "place_of_worship",
+                "name": "Ruka Manke Kalkin",
+                "phone": "+56998479205",
+                "religion": "native_american"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.2371768,
+                    -33.6370973
+                ]
+            },
+            "properties": {
+                "addr:street": "Rumay Sur",
+                "amenity": "place_of_worship",
+                "name": "Capilla Nuestra Señora de la Merced Rumay"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6579763,
+                    -33.4623407
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:street": "Avenida Viel",
+                "alt_name": "Museo de Insectos",
+                "museum": "nature",
+                "name": "Insectario del Parque",
+                "tourism": "museum"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.6675178,
+                    -33.4421117
+                ]
+            },
+            "properties": {
+                "addr:city": "Santiago",
+                "addr:housenumber": "2267",
+                "addr:street": "Agustinas",
+                "museum": "living_history",
+                "name": "Museo Ocean Pacific's",
+                "tourism": "museum",
+                "website": "https://oceanpacifics.cl/museo/"
+            }
+        }
+    ]
+}
