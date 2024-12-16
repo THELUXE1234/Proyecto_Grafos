@@ -11,6 +11,7 @@ let selectedCoords = null;
 function showPlaceDetails(feature, latlng) {
     const detailsContent = document.getElementById('details-content');
     const addRemoveButton = document.getElementById('add-remove-activity');
+    const timeWindowsInput = document.getElementById('time-windows-input');
     const coords = latlng.lat + "," + latlng.lng;
 
     if (feature) {
@@ -23,11 +24,11 @@ function showPlaceDetails(feature, latlng) {
         }else if(detalles.leisure){
             tipo = "Parque"
         }
-        detailsContent.innerHTML = `<p><b>Nombre:</b> ${detalles.name ? detalles.name:"No definido"}<p><b>Tipo:</b> ${tipo}</p></p><p><b>Coordenadas:</b> ${coords}</p>`;
+        detailsContent.innerHTML = `<p><b>Nombre:</b> ${detalles.name ? detalles.name:"No definido"}<p><b>Tipo:</b> ${tipo}</p></p><p><b>Coordenadas:</b> ${coords}</p><br>`;
     } else {
         detailsContent.innerHTML = `<p>Lugar encontrado sin información</p><p><b>Coordenadas:</b> ${coords}</p>`;
     }
-
+    timeWindowsInput.style.display = 'block';
     // Mostrar el botón de agregar/eliminar
     addRemoveButton.style.display = 'block';
 

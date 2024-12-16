@@ -4,10 +4,12 @@
 {% block content %}
 <div class="container">
     <h1>Planificador de Actividades Semanales</h1>
-    <h3>Selecciona Actividades en el Mapa</h3>
+    <h3>Selecciona Actividades en el Mapa (La actividad 0 siempre es el punto de Inicio)</h3>
 
     {% csrf_token %}
-    
+    <div>
+        <p>Mi ubicación (Seleeciona antes de elegir las actividades): <button id="get-location">Usar Mi Ubicación Actual</button> </p>  
+    </div>
     <!-- Casilla de búsqueda -->
     <div class="search-section">
         <input type="text" id="address-input" class="input-text" placeholder="Ingresa una dirección">
@@ -27,21 +29,27 @@
         </div>
     </div>
 
-    <!-- Mapa y Detalles en la misma línea -->
+    <!-- Mapa y Detalles -->
     <div class="map-details-section">
-        <!-- Mapa -->
         <div id="map" class="map"></div>
-
-        <!-- Detalles del lugar seleccionado -->
         <div id="place-details" class="details-box">
             <h3>Detalles del lugar seleccionado</h3>
             <div id="details-content">
                 <p>Selecciona un lugar en el mapa para ver los detalles.</p>
             </div>
+            <br>
+            <div id= "time-windows-input" class="time-inputs" style="display: none; margin-top: 10px;">
+                <label>Inicio: <input type="time" id="start-time" placeholder="Ej. 09:00"></label>
+                <br>
+                <label>Fin: <input type="time" id="end-time" placeholder="Ej. 13:00"></label>
+                <br>
+                <br>
+                <label>Tiempo de espera (min):<input type="number" id="wait-time" placeholder="Ej. 30"></label>
+            </div>
             <button id="add-remove-activity" class="btn" style="display: none;">Agregar a Actividades</button>
         </div>
     </div>
-
+    <div id="route-filters" style="margin-top: 10px;"></div>
     <!-- Botón para calcular el tiempo de la ruta -->
     <button id="submit-activities" class="btn-large">Calcular tiempo Ruta</button>
 
@@ -50,7 +58,7 @@
     <ul id="activity-list" class="activity-list">
         <!-- Aquí aparecerán las actividades confirmadas -->
     </ul>
-    <button id="submit-vrptw" class="btn-large">Calcular VRPTW</button>
+    <button id="submit-cvrptw" class="btn-large">Calcular CVRPTW</button>
 </div>
 
 

@@ -163,49 +163,80 @@ def generate_time_windows(num_activities):
 
 def create_matrix(activities):
     matrix = []
-
+    routes_geometry = []
     for i in range(len(activities)):
         matrix_row = []
+        geometry_row = []
         for j in range(len(activities)):
             coord1 = activities[i].split(',')
             coord2 = activities[j].split(',')
             print("calculando tiempo ",f"actividad {i} ->",f"actividad {j}")
-            url = f"http://router.project-osrm.org/route/v1/driving/{coord1[1]},{coord1[0]};{coord2[1]},{coord2[0]}?overview=false"
+            url = f"http://router.project-osrm.org/route/v1/driving/{coord1[1]},{coord1[0]};{coord2[1]},{coord2[0]}?geometries=geojson&overview=full"
             response = requests.get(url)
             if response.status_code == 200:
                 data = response.json()
-                travel_time = data['routes'][0]['duration'] /60  
+                travel_time = data['routes'][0]['duration'] /60 
+                geometry = data['routes'][0]['geometry']
                 #print("tiempo:", travel_time)
                 matrix_row.append(int(round(travel_time, 2)))
+                geometry_row.append(geometry)
             else:
                 print("Error al calcular el tiempo entre las actividades")
         matrix.append(matrix_row)
+        routes_geometry.append(geometry_row)
     
-    return matrix
+    return matrix, routes_geometry
 
 
-def VRPTW(request):
+def CVRPTW(request):
     if request.method == 'POST':
         activities = request.POST.getlist('activities[]')
+        time_windows_req = request.POST.getlist('time_windows[]')
+        wait_times_req = request.POST.getlist('wait_times[]')
         print("Actividades recibidas:", activities)
+        print("Ventanas de tiempo:", time_windows_req)
+        print("Tiempos de espera actividades:", wait_times_req)
 
         # Creación de la matriz de distancia usando OSRM
-        time_matrix = create_matrix(activities)
+        time_matrix, routes_geometry = create_matrix(activities)
         
         # Simulación de ventanas de tiempo (tiempos en minutos)
-        time_windows = generate_time_windows(len(activities))
+        #time_windows = generate_time_windows(len(activities))
+
+        # Convertir ventanas de tiempo en formato (inicio, fin)
+        time_windows = [tuple(map(int, tw.split(','))) for tw in time_windows_req]
+
+        # Convertir tiempos de espera a enteros
+        wait_times = list(map(int, wait_times_req))
+
+        # Calcular demandas y capacidades
+        demands = [1] * len(activities)
+        demands[0] = 0
+        # Ajustar capacidades dinámicamente
+        total_activities = len(activities) - 1  # Excluyendo el depósito
+        base_capacity = total_activities // 5
+        extra_capacity = total_activities % 5
+
+        vehicle_capacities = [base_capacity] * 5
+        for i in range(extra_capacity):
+            vehicle_capacities[i] += 1  # Distribuir actividades sobrantes
+
+        print("Capacidades de los vehículos:", vehicle_capacities)
 
         # Definición del problema VRPTW con las ventanas de tiempo
         data = {
             "time_matrix": time_matrix,
-            "num_vehicles": 4,
+            "time_windows": time_windows,
+            "wait_times": wait_times,
+            "num_vehicles": 5,
             "depot": 0,
-            "time_windows": time_windows  
+            'vehicle_capacities': vehicle_capacities,
+            'demands': demands,
         }
 
         # Llamar a la función para resolver VRPTW
-        #solution_output = solve_vrptw(data)
-        solution_output = []
+        solution_output = solve_cvrptw(data)
+        #solution_output = data
 
         print("Matriz de tiempos entre actividades:")
         for row in data["time_matrix"]:
@@ -213,98 +244,176 @@ def VRPTW(request):
         
         print("Ventanas de actividades:",data['time_windows'])
         
-        return JsonResponse({"solution": solution_output}, status=200)
+        return JsonResponse({
+            "solution": solution_output, 
+            "geometries": routes_geometry
+        }, status=200)
 
     return JsonResponse({"error": "Método no permitido"}, status=400)
 
 
-def solve_vrptw(data):
-    """Resuelve el problema de VRPTW utilizando OR-Tools."""
+def solve_cvrptw(data):
+    """Resuelve el problema CVRPTW utilizando OR-Tools."""
     manager = pywrapcp.RoutingIndexManager(
         len(data['time_matrix']), data['num_vehicles'], data['depot']
     )
     routing = pywrapcp.RoutingModel(manager)
 
+    # Definir la función de costo
     def time_callback(from_index, to_index):
-        """Retorna la distancia entre dos nodos."""
         from_node = manager.IndexToNode(from_index)
         to_node = manager.IndexToNode(to_index)
-        return data['time_matrix'][from_node][to_node]
+        travel_time = data['time_matrix'][from_node][to_node]
+        wait_time = data['wait_times'][from_node]  # Añadir tiempo de espera del nodo actual
+        return travel_time + wait_time
 
     transit_callback_index = routing.RegisterTransitCallback(time_callback)
     routing.SetArcCostEvaluatorOfAllVehicles(transit_callback_index)
 
-    # Añadir restricciones de tiempo (ventanas de tiempo)
-    time = "Time"
+    # Añadir restricciones de capacidad
+    def demand_callback(from_index):
+        from_node = manager.IndexToNode(from_index)
+        return data['demands'][from_node]
+
+    demand_callback_index = routing.RegisterUnaryTransitCallback(demand_callback)
+    routing.AddDimensionWithVehicleCapacity(
+        demand_callback_index,
+        0,  # No slack
+        data['vehicle_capacities'],
+        True,  # Cumul starts at zero
+        'Capacity'
+    )
+
+    # Añadir restricciones de ventanas de tiempo
+    time = 'Time'
     routing.AddDimension(
         transit_callback_index,
-        20,  # Permitir tiempo de espera (30 minutos)
-        1000,  # Tiempo máximo para las rutas (5 horas)
-        False,  # No permitir tiempos negativos
-        time,
+        30,  # Tiempo de espera permitido
+        1440,  # Tiempo máximo por vehículo (1 día)
+        False,  # No forzar inicio en 0
+        time
     )
     time_dimension = routing.GetDimensionOrDie(time)
-    
 
     for location_idx, time_window in enumerate(data['time_windows']):
-        if location_idx == data["depot"]:
+        if location_idx == 0:
             continue
         index = manager.NodeToIndex(location_idx)
         time_dimension.CumulVar(index).SetRange(time_window[0], time_window[1])
 
-    #Add time window constraints for each vehicle start node.
-    depot_idx = data["depot"]
-    for vehicle_id in range(data["num_vehicles"]):
-        index = routing.Start(vehicle_id)
-        time_dimension.CumulVar(index).SetRange(
-            data["time_windows"][depot_idx][0], data["time_windows"][depot_idx][1]
+    for vehicle_id in range(data['num_vehicles']):
+        start_index = routing.Start(vehicle_id)
+        time_dimension.CumulVar(start_index).SetRange(
+            data['time_windows'][data['depot']][0], data['time_windows'][data['depot']][1]
         )
 
-    for i in range(data["num_vehicles"]):
+    # Minimizar tiempos de espera en nodos
+    for i in range(len(data['time_matrix'])):
+        wait_time = data['wait_times'][i]
+        if wait_time > 0:
+            index = manager.NodeToIndex(i)
+            time_dimension.SlackVar(index).SetValue(wait_time)
+
+
+     # Instantiate route start and end times to produce feasible times.
+    for i in range(data['num_vehicles']):
         routing.AddVariableMinimizedByFinalizer(
-            time_dimension.CumulVar(routing.Start(i))
-        )
-        routing.AddVariableMinimizedByFinalizer(time_dimension.CumulVar(routing.End(i)))
+            time_dimension.CumulVar(routing.Start(i)))
+        routing.AddVariableMinimizedByFinalizer(
+            time_dimension.CumulVar(routing.End(i)))
 
-
-    # Solucionar el problema
+    # Setting first solution heuristic.
     search_parameters = pywrapcp.DefaultRoutingSearchParameters()
     search_parameters.first_solution_strategy = (
-        routing_enums_pb2.FirstSolutionStrategy.PATH_CHEAPEST_ARC
-    )
-
+        routing_enums_pb2.FirstSolutionStrategy.PATH_CHEAPEST_ARC)
+    search_parameters.time_limit.seconds = 10
+    
+    # Solve the problem.
     solution = routing.SolveWithParameters(search_parameters)
 
+    # Print solution on console.
     if solution:
-        return print_solution(data, manager, routing, solution)
+        print_solution(data, manager, routing, solution)
+        return extract_solution(data, manager, routing, solution)
     else:
-        return "No se encontró solución."
+        return {"Error", "No se encontro solución"}
 
 def print_solution(data, manager, routing, solution):
-    solution_output = []
-
-    """Imprimir y devolver la solución."""
-    print(f'Objective: {solution.ObjectiveValue()}')
-    time_dimension = routing.GetDimensionOrDie("Time")
+    """Prints solution on console."""
+    total_distance = 0
+    total_load = 0
+    time_dimension = routing.GetDimensionOrDie('Time')
     total_time = 0
+    
     for vehicle_id in range(data['num_vehicles']):
         index = routing.Start(vehicle_id)
-        plan_output = f"Ruta para vehiculo {vehicle_id}:\n"
+        plan_output = 'Route for vehicle {}:\n'.format(vehicle_id)
+        route_load = 0
         while not routing.IsEnd(index):
+            node_index = manager.IndexToNode(index)
             time_var = time_dimension.CumulVar(index)
-            plan_output += (
-                f"{manager.IndexToNode(index)}"
-                f" Time({solution.Min(time_var)},{solution.Max(time_var)})"
-                " -> "
-            )
+            route_load += data['demands'][node_index]
+            plan_output += 'Place {0:>2} Arrive at {2:>2}min Depart at {3:>2}min (Load {1:>2})\n'.format(manager.IndexToNode(index), route_load, solution.Min(time_var), solution.Max(time_var))
+            
+            previous_index = index
             index = solution.Value(routing.NextVar(index))
+            
+            
         time_var = time_dimension.CumulVar(index)
-        plan_output += (
-            f"{manager.IndexToNode(index)}"
-            f" Time({solution.Min(time_var)},{solution.Max(time_var)})\n"
-        )
-        plan_output += f"Time of the route: {solution.Min(time_var)}min\n"
-        print(plan_output)
         total_time += solution.Min(time_var)
-    print(f"Total time of all routes: {total_time}min")
-    return solution_output
+        plan_output +="Place {0:>2} Arrive at {2:>2}min \n\n".format(manager.IndexToNode(index), route_load, solution.Min(time_var), solution.Max(time_var))
+        
+        # route output
+        plan_output += 'Load of the route: {}\n'.format(route_load)
+        plan_output += 'Time of the route: {}min\n'.format(solution.Min(time_var))
+        plan_output += "--------------------"
+        
+        print(plan_output)
+        total_load += route_load
+
+    print('Total load of all routes: {}'.format(total_load))
+    print('Total time of all routes: {}min'.format(total_time))
+
+
+def extract_solution(data, manager, routing, solution):
+    """Transforma la solución en un formato serializable."""
+    routes = []
+    time_dimension = routing.GetDimensionOrDie('Time')
+
+    for vehicle_id in range(data['num_vehicles']):
+        index = routing.Start(vehicle_id)
+        route = {
+            "vehicle_id": vehicle_id,
+            "stops": [],
+            "total_time": 0
+        }
+
+        while not routing.IsEnd(index):
+            node_index = manager.IndexToNode(index)
+            time_var = time_dimension.CumulVar(index)
+            arrival_time = solution.Min(time_var)
+            departure_time = arrival_time + data['wait_times'][node_index]
+            route["stops"].append({
+                "node": node_index,
+                "arrival_time": arrival_time,
+                "departure_time": departure_time,
+            })
+            index = solution.Value(routing.NextVar(index))
+
+        # Añadir la llegada desde el último nodo hacia el nodo inicial
+        if route["stops"][-1]["node"] != data["depot"]:
+            last_node = route["stops"][-1]["node"]
+            depot_index = data["depot"]
+            return_time = data["time_matrix"][last_node][depot_index]
+            return_arrival_time = route["stops"][-1]["departure_time"] + return_time
+            route["stops"].append({
+                "node": depot_index,
+                "arrival_time": return_arrival_time,
+                "departure_time": None,  # Sin hora de salida
+            })
+
+        # Calcular el tiempo total de la ruta
+        route["total_time"] = route["stops"][-1]["arrival_time"]
+        routes.append(route)
+
+    return routes
